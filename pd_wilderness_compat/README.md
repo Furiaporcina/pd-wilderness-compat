@@ -236,19 +236,15 @@ Replacements are optional.
 
 ## Installation and load order
 
-The launcher descriptor has already been created at:
+The repository ships two pieces:
 
-```
-C:\Users\furia\Documents\Paradox Interactive\Stellaris\mod\pd_wilderness_compat.mod
-```
+* `pd_wilderness_compat/` - the mod folder (with its own `descriptor.mod`).
+* `pd_wilderness_compat.mod` - the launcher descriptor, using the relative path
+  `path="mod/pd_wilderness_compat"`.
 
-It points at:
-
-```
-C:\Users\furia\Downloads\PlanetaryDiveristy-main\pd_wilderness_compat
-```
-
-If you move the mod folder, update the `path=` line in the `.mod` file (forward slashes).
+Copy both into the Stellaris user mod folder (`Documents\Paradox Interactive\Stellaris\mod\`),
+so the folder and the `.mod` file sit directly inside `mod/`. If you install the mod
+somewhere else, update the `path=` line in the `.mod` file (forward slashes).
 
 Then, in the Paradox launcher:
 

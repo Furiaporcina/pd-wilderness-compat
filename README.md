@@ -48,6 +48,7 @@ Detalles, limitaciones y pruebas en
 pd_wilderness_compat/   Mod listo para usar (common/, localisation/, descriptor.mod)
 pd_wilderness_compat.mod Descriptor del launcher (ruta relativa)
 tools/                  Generador y validador del split (Python 3.11+)
+steam_description_en.txt Descripción en inglés (BBCode) para Steam Workshop
 ```
 
 ## Regenerar y validar

@@ -1,0 +1,70 @@
+[h1]Planetary Diversity: Wilderness Compatibility[/h1]
+[b]Version 1.0.2 - Stellaris 4.5.x[/b]
+
+A compatibility patch that lets [b]Wilderness[/b] empires use Planetary Diversity's rare
+zones and planetary superprojects with names, jobs and districts that fit the Wilderness
+origin, while every other empire keeps the original PD content.
+
+[h2]Features[/h2]
+[list]
+[*][b]51 Wilderness rare zones[/b] - every rare and uncommon PD zone gets a Wilderness copy
+with its own zone name, game concept and job name (Ventheart, Rootspine, Ventsymbiont...).
+Non-Wilderness empires still see the original PD names.
+[*][b]Wilderness superproject worlds[/b] - the three Ascension Worlds superprojects produce
+Wilderness-only world types, with their own name, description, adjective and planet
+modifier: [b]Coreheart[/b], [b]Harvestheart[/b] and [b]Oremarrow[/b].
+[*][b]Agriworld technology fix[/b] - Wilderness can research the Agriworld superproject
+technology and start the project like any other empire.
+[*][b]Nothing renamed for other empires[/b] - PD decisions, jobs, job swaps and districts are
+untouched. The mod only adds Wilderness variants and keeps the original IDs working.
+[/list]
+
+[h2]Requirements[/h2]
+[list]
+[*]Stellaris 4.5.x
+[*][b]Planetary Diversity[/b] (core)
+[*][b]Planetary Diversity: Ascension Worlds[/b]
+[*]Optional: Planetary Diversity: Exotic Worlds (compatible, no patch needed)
+[/list]
+
+[h2]Load order[/h2]
+PD core -> Ascension Worlds -> (Exotics, if used) -> [b]this mod last[/b].
+
+This mod redefines PD zone IDs, job swap roots and concept keys, so it must load after PD
+and after any other mod that touches PD rare zones or drone jobs.
+
+[h2]Multiplayer and achievements[/h2]
+[list]
+[*]All players need exactly the same files and the same PD version.
+[*]Mods disable achievements.
+[/list]
+
+[h2]Save compatibility[/h2]
+[list]
+[*]Safe to add to existing saves.
+[*]Superproject worlds built before installing this mod keep their original PD names; only
+new projects use the Wilderness world types. There is no automatic migration by design.
+[*]Wilderness specialisation zones from older builds of this patch are converted back to
+plain vanilla zones on load. Back up long-running saves before updating.
+[/list]
+
+[h2]Known limitations[/h2]
+[list]
+[*]Rare-zone modifier tooltips still list the original PD zone names; the build menu and the
+zone/job tooltips show the Wilderness names.
+[*]The databank lists both the original and the Wilderness concepts.
+[*]The planet name follows the planet, not the owner: a conquered Wilderness superproject
+keeps its Wilderness world type until it is terraformed or the project is rebuilt.
+[*]Superproject decision titles and descriptions stay as written by PD; only the resulting
+world type and planet modifier are renamed.
+[/list]
+
+[h2]Credits[/h2]
+Planetary Diversity is created by [b]GatekeeperHaig[/b] and contributors. This patch only
+adds compatibility code and requires PD to be installed; it does not include or redistribute
+PD files. Stellaris and Wilderness are property of Paradox Interactive.
+
+[h2]Links[/h2]
+[list]
+[*]Source code and issue tracker: [url=https://github.com/Furiaporcina/pd-wilderness-compat]github.com/Furiaporcina/pd-wilderness-compat[/url]
+[/list]
