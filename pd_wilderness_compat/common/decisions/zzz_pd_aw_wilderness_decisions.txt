@@ -1,0 +1,317 @@
+# Wilderness compatibility overrides for the three Planetary Diversity Ascension Worlds superprojects.
+# Loaded after planetary_diversity_ascension_worlds, so these keys replace the originals.
+#
+# Only the player-facing requirement block changes: a Wilderness empire is asked for its own
+# rural district type (photosynthesis fields / hollow mountains / orchard forests) instead of
+# the vanilla generator/farming/mining districts, which Wilderness can never build.
+# The AI bypass, costs, effects, carrier flags, planet classes and modifiers are untouched.
+
+@pd_planetary_superproject_time = 3600
+
+decision_pd_aw_core_tap = {
+	owned_planets_only = yes
+	icon = decision_pd_aw_core_tap
+
+	enactment_time = @pd_planetary_superproject_time
+
+	potential = {
+		OR = {
+			habitable_planet_not_urban = yes
+			pd_is_planet_class_pd_gaia = yes
+		}
+		NOT = { is_planet_class = pc_volcanic }
+		exists = owner
+		owner = { has_technology = tech_pd_planetary_core_tap }
+		pd_is_flooded_planet = no
+		pd_aw_is_wasteland_planet = no
+		pd_aw_is_lithoid_planet = no
+		pd_aw_is_necro_planet = no
+		NOT = { has_planet_flag = pd_unique_world }
+		NOT = { has_modifier = resort_colony }
+		NOT = { owner = { has_origin = origin_pd_aw_tree_of_life } }
+	}
+
+	allow = {
+		if = {
+			limit = { owner = { is_ai = no } }
+			if = {
+				limit = { owner = { is_wilderness_empire = yes } }
+				custom_tooltip = {
+					fail_text = pd_wc_core_tap_requirements
+					num_districts = { type = district_photosynthesis_fields value >= 3 }
+					num_districts = { type = district_hollow_mountains value < 1 }
+					num_districts = { type = district_orchard_forests value < 1 }
+				}
+			}
+			else = {
+				custom_tooltip = {
+					fail_text = decision_pd_megacoretap_requirements
+					OR = {
+						num_districts = { type = district_generator value >= 3 }
+					}
+					num_districts = { type = district_farming value < 1 }
+					num_districts = { type = district_mining value < 1 }
+				}
+			}
+		}
+		custom_tooltip = {
+			fail_text = decision_cant_be_building_anything
+			has_building_construction = no
+		}
+		num_uncleared_blockers < 1
+	}
+
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			minerals = 10000
+		}
+	}
+
+	effect = {
+		#custom_tooltip = decision_pd_aw_core_tap_tooltip
+		if = {
+			limit = { owner = { is_wilderness_empire = yes } }
+			change_pc = pc_pd_core_tap_wilderness
+			add_modifier = {
+				modifier = pd_aw_core_tap_wilderness
+				days = -1
+			}
+		}
+		else = {
+			change_pc = pc_pd_core_tap
+			add_modifier = {
+				modifier = pd_aw_core_tap
+				days = -1
+			}
+		}
+		set_carrier_flag = uncapped_generator_districts
+		#clear_deposits = yes
+		hidden_effect = {
+			remove_pd_modifier = yes
+			validate_planet_buildings_and_districts = yes
+			create_message = {
+				type = MESSAGE_PD_AW_SUPERPROJECT_TYPE
+				localization = MESSAGE_PD_AW_SUPERPROJECT_DESC
+				days = 20
+				target = root
+				variable = {
+					type = name
+					localization = PLANET
+					scope = this
+				}
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+# #Agriworld
+decision_pd_aw_agriworld = {
+	owned_planets_only = yes
+	icon = decision_pd_aw_agriworld
+
+	enactment_time = @pd_planetary_superproject_time
+
+	potential = {
+		OR = {
+			habitable_planet_not_urban = yes
+			pd_is_planet_class_pd_gaia = yes
+		}
+		NOT = { is_planet_class = pc_volcanic }
+		exists = owner
+		owner = { has_technology = tech_pd_planetary_agriworld }
+		pd_is_flooded_planet = no
+		pd_aw_is_wasteland_planet = no
+		pd_aw_is_lithoid_planet = no
+		pd_aw_is_necro_planet = no
+		NOT = { has_planet_flag = pd_unique_world }
+		NOT = { has_modifier = resort_colony }
+		NOT = { owner = { has_origin = origin_pd_aw_tree_of_life } }
+	}
+
+	allow = {
+		if = {
+			limit = { owner = { is_ai = no } }
+			if = {
+				limit = { owner = { is_wilderness_empire = yes } }
+				custom_tooltip = {
+					fail_text = pd_wc_agriworld_requirements
+					num_districts = { type = district_orchard_forests value >= 3 }
+					num_districts = { type = district_photosynthesis_fields value < 1 }
+					num_districts = { type = district_hollow_mountains value < 1 }
+				}
+			}
+			else = {
+				custom_tooltip = {
+					fail_text = decision_pd_agriworld_requirements
+					OR = {
+						num_districts = { type = district_farming value >= 3 }
+					}
+					num_districts = { type = district_generator value < 1 }
+					num_districts = { type = district_mining value < 1 }
+				}
+			}
+		}
+		custom_tooltip = {
+			fail_text = decision_cant_be_building_anything
+			has_building_construction = no
+		}
+		num_uncleared_blockers < 1
+	}
+
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			minerals = 10000
+		}
+	}
+
+	effect = {
+		#custom_tooltip = decision_pd_aw_agriworld_tooltip
+		if = {
+			limit = { owner = { is_wilderness_empire = yes } }
+			change_pc = pc_pd_agriworld_wilderness
+			add_modifier = {
+				modifier = pd_aw_agriworld_wilderness
+				days = -1
+			}
+		}
+		else = {
+			change_pc = pc_pd_agriworld
+			add_modifier = {
+				modifier = pd_aw_agriworld
+				days = -1
+			}
+		}
+		set_carrier_flag = uncapped_farming_districts
+		#clear_deposits = yes
+		hidden_effect = {
+			remove_pd_modifier = yes
+			validate_planet_buildings_and_districts = yes
+			create_message = {
+				type = MESSAGE_PD_AW_SUPERPROJECT_TYPE
+				localization = MESSAGE_PD_AW_SUPERPROJECT_DESC
+				days = 20
+				target = root
+				variable = {
+					type = name
+					localization = PLANET
+					scope = this
+				}
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+# #Stripmine
+decision_pd_aw_stripmine = {
+	owned_planets_only = yes
+	icon = decision_pd_aw_stripmine
+
+	enactment_time = @pd_planetary_superproject_time
+
+	potential = {
+		OR = {
+			habitable_planet_not_urban = yes
+			pd_is_planet_class_pd_gaia = yes
+		}
+		NOT = { is_planet_class = pc_volcanic }
+		exists = owner
+		owner = { has_technology = tech_pd_planetary_stripmine }
+		pd_is_flooded_planet = no
+		pd_aw_is_wasteland_planet = no
+		pd_aw_is_lithoid_planet = no
+		pd_aw_is_necro_planet = no
+		NOT = { has_planet_flag = pd_unique_world }
+		NOT = { has_modifier = resort_colony }
+		NOT = { owner = { has_origin = origin_pd_aw_tree_of_life } }
+	}
+
+	allow = {
+		if = {
+			limit = { owner = { is_ai = no } }
+			if = {
+				limit = { owner = { is_wilderness_empire = yes } }
+				custom_tooltip = {
+					fail_text = pd_wc_stripmine_requirements
+					num_districts = { type = district_hollow_mountains value >= 3 }
+					num_districts = { type = district_photosynthesis_fields value < 1 }
+					num_districts = { type = district_orchard_forests value < 1 }
+				}
+			}
+			else = {
+				custom_tooltip = {
+					fail_text = decision_pd_stripmine_requirements
+					OR = {
+						num_districts = { type = district_mining value >= 3 }
+					}
+					num_districts = { type = district_generator value < 1 }
+					num_districts = { type = district_farming value < 1 }
+				}
+			}
+		}
+		custom_tooltip = {
+			fail_text = decision_cant_be_building_anything
+			has_building_construction = no
+		}
+		num_uncleared_blockers < 1
+	}
+
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			minerals = 10000
+		}
+	}
+
+	effect = {
+		#custom_tooltip = decision_pd_aw_agriworld_tooltip
+		if = {
+			limit = { owner = { is_wilderness_empire = yes } }
+			change_pc = pc_pd_stripmine_wilderness
+			add_modifier = {
+				modifier = pd_aw_stripmine_wilderness
+				days = -1
+			}
+		}
+		else = {
+			change_pc = pc_pd_stripmine
+			add_modifier = {
+				modifier = pd_aw_stripmine
+				days = -1
+			}
+		}
+		set_carrier_flag = uncapped_mining_districts
+		#clear_deposits = yes
+		hidden_effect = {
+			remove_pd_modifier = yes
+			validate_planet_buildings_and_districts = yes
+			create_message = {
+				type = MESSAGE_PD_AW_SUPERPROJECT_TYPE
+				localization = MESSAGE_PD_AW_SUPERPROJECT_DESC
+				days = 20
+				target = root
+				variable = {
+					type = name
+					localization = PLANET
+					scope = this
+				}
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}

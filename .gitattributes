@@ -1,0 +1,11 @@
+# Keep Stellaris script/localisation files LF on every platform.
+# The mod files (and the validator) assume LF; the .yml files carry a UTF-8 BOM,
+# which git preserves as ordinary bytes.
+* text=auto eol=lf
+*.yml  text eol=lf
+*.txt  text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+*.mod  text eol=lf
+*.ps1  text eol=lf

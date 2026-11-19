@@ -1,0 +1,41 @@
+# Wilderness-only copies of the three Ascension Worlds superproject planet modifiers.
+#
+# The effects are copied verbatim from PD; only the ID, the localised name and the
+# district named in the custom tooltip change. Wilderness keeps its own rural district
+# types (photosynthesis fields / orchard forests / hollow mountains), so the tooltip
+# must name the district the empire can actually build.
+#
+# Loaded after planetary_diversity_ascension_worlds.
+
+# Core Tap
+pd_aw_core_tap_wilderness = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_pd_aw_core_tap.dds"
+	icon_frame = 1
+	custom_tooltip = pd_aw_core_tap_wilderness_tooltip
+	show_only_custom_tooltip = no
+	planet_technician_energy_produces_add = 3
+	district_mining_max_mult = -1
+	district_farming_max_mult = -1
+}
+
+# Agriworld
+pd_aw_agriworld_wilderness = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_pd_aw_agriworld.dds"
+	icon_frame = 1
+	custom_tooltip = pd_aw_agriworld_wilderness_tooltip
+	show_only_custom_tooltip = no
+	planet_farmers_food_produces_add = 3
+	district_generator_max_mult = -1
+	district_mining_max_mult = -1
+}
+
+# Stripmine
+pd_aw_stripmine_wilderness = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_pd_aw_stripmine.dds"
+	icon_frame = 1
+	custom_tooltip = pd_aw_stripmine_wilderness_tooltip
+	show_only_custom_tooltip = no
+	planet_miners_minerals_produces_add = 3
+	district_generator_max_mult = -1
+	district_farming_max_mult = -1
+}

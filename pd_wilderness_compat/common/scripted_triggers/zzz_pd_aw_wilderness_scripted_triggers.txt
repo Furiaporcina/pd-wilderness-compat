@@ -1,0 +1,17 @@
+# PD's superproject class trigger must also recognise the Wilderness class copies.
+# Copied from planetary_diversity_ascension_worlds/common/scripted_triggers/
+# pd_aw_scripted_triggers.txt; loaded after it, so this definition wins.
+#
+# PD core ships a stub (`always = no`) and Ascension Worlds replaces it with the real
+# check. Keeping both ID sets here preserves the behaviour for every other empire.
+
+pd_aw_is_superproject_class = {
+	OR = {
+		is_planet_class = pc_pd_core_tap
+		is_planet_class = pc_pd_stripmine
+		is_planet_class = pc_pd_agriworld
+		is_planet_class = pc_pd_core_tap_wilderness
+		is_planet_class = pc_pd_stripmine_wilderness
+		is_planet_class = pc_pd_agriworld_wilderness
+	}
+}

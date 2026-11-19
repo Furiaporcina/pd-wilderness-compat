@@ -1,0 +1,716 @@
+[
+  {
+    "zone": "zone_pd_geothermal_grid",
+    "job": "pd_geothermal_vent_tapper_drone",
+    "en": {
+      "zone": "Ventheart",
+      "job": "Ventsymbiont",
+      "plural": "Ventsymbionts"
+    },
+    "es": {
+      "zone": "Corazón de Fumarolas",
+      "job": "Simbionte de Fumarola",
+      "plural": "Simbiontes de Fumarola"
+    }
+  },
+  {
+    "zone": "zone_pd_geothermal_foundry",
+    "job": "pd_geothermal_slurry_refiner_drone",
+    "en": {
+      "zone": "Magmaforge",
+      "job": "Magmasymbiont",
+      "plural": "Magmasymbionts"
+    },
+    "es": {
+      "zone": "Forja de Magma",
+      "job": "Simbionte de Magma",
+      "plural": "Simbiontes de Magma"
+    }
+  },
+  {
+    "zone": "zone_pd_geothermal_lab",
+    "job": "pd_geothermal_geologist_drone",
+    "en": {
+      "zone": "Thermocore",
+      "job": "Thermosymbiont",
+      "plural": "Thermosymbionts"
+    },
+    "es": {
+      "zone": "Núcleo Térmico",
+      "job": "Simbionte Térmico",
+      "plural": "Simbiontes Térmicos"
+    }
+  },
+  {
+    "zone": "zone_pd_megaflora_mine",
+    "job": "pd_megaflora_rootbreaker_drone",
+    "en": {
+      "zone": "Rootspine",
+      "job": "Rootbreakersymbiont",
+      "plural": "Rootbreakersymbionts"
+    },
+    "es": {
+      "zone": "Espina de Raíz",
+      "job": "Simbionte Romperraíces",
+      "plural": "Simbiontes Romperraíces"
+    }
+  },
+  {
+    "zone": "zone_pd_megaflora_lab",
+    "job": "pd_megaflora_canopy_ecologist_drone",
+    "en": {
+      "zone": "Canopystem",
+      "job": "Canopy Evosymbiont",
+      "plural": "Canopy Evosymbionts"
+    },
+    "es": {
+      "zone": "Tallo del Dosel",
+      "job": "Evosimbionte del Dosel",
+      "plural": "Evosimbiontes del Dosel"
+    }
+  },
+  {
+    "zone": "zone_pd_megaflora_grid",
+    "job": "pd_megaflora_xylem_tapper_drone",
+    "en": {
+      "zone": "Xylembloom",
+      "job": "Xylemsymbiont",
+      "plural": "Xylemsymbionts"
+    },
+    "es": {
+      "zone": "Floración de Xilema",
+      "job": "Simbionte de Xilema",
+      "plural": "Simbiontes de Xilema"
+    }
+  },
+  {
+    "zone": "zone_pd_petrified_mine",
+    "job": "pd_petrified_fossil_quarrier_drone",
+    "en": {
+      "zone": "Fossilspine",
+      "job": "Fossilsymbiont",
+      "plural": "Fossilsymbionts"
+    },
+    "es": {
+      "zone": "Espina Fósil",
+      "job": "Simbionte Fósil",
+      "plural": "Simbiontes Fósiles"
+    }
+  },
+  {
+    "zone": "zone_pd_petrified_lab",
+    "job": "pd_petrified_lithoglyph_scholar_drone",
+    "en": {
+      "zone": "Lithocore",
+      "job": "Lithoglyph Evosymbiont",
+      "plural": "Lithoglyph Evosymbionts"
+    },
+    "es": {
+      "zone": "Núcleo Lítico",
+      "job": "Evosimbionte Litoglífico",
+      "plural": "Evosimbiontes Litoglíficos"
+    }
+  },
+  {
+    "zone": "zone_pd_reef_lab",
+    "job": "pd_reef_ecologist_drone",
+    "en": {
+      "zone": "Reefmind",
+      "job": "Reef Evosymbiont",
+      "plural": "Reef Evosymbionts"
+    },
+    "es": {
+      "zone": "Mente del Arrecife",
+      "job": "Evosimbionte del Arrecife",
+      "plural": "Evosimbiontes del Arrecife"
+    }
+  },
+  {
+    "zone": "zone_pd_reef_mine",
+    "job": "pd_reef_coral_harvester_drone",
+    "en": {
+      "zone": "Coralspine",
+      "job": "Coralsymbiont",
+      "plural": "Coralsymbionts"
+    },
+    "es": {
+      "zone": "Espina de Coral",
+      "job": "Simbionte de Coral",
+      "plural": "Simbiontes de Coral"
+    }
+  },
+  {
+    "zone": "zone_pd_archipelago_foundry",
+    "job": "pd_archipelago_tidal_smelter_drone",
+    "en": {
+      "zone": "Tidegut",
+      "job": "Tidal Forgesymbiont",
+      "plural": "Tidal Forgesymbionts"
+    },
+    "es": {
+      "zone": "Tracto de Marea",
+      "job": "Forjasimbionte Mareal",
+      "plural": "Forjasimbiontes Mareales"
+    }
+  },
+  {
+    "zone": "zone_pd_archipelago_farm",
+    "job": "pd_archipelago_kelp_farmer_drone",
+    "en": {
+      "zone": "Kelpweave",
+      "job": "Kelpsymbiont",
+      "plural": "Kelpsymbionts"
+    },
+    "es": {
+      "zone": "Tejido de Kelp",
+      "job": "Simbionte de Kelp",
+      "plural": "Simbiontes de Kelp"
+    }
+  },
+  {
+    "zone": "zone_pd_biolumen_lab",
+    "job": "pd_biolumen_lumen_biologist_drone",
+    "en": {
+      "zone": "Lumenstem",
+      "job": "Lumen Evosymbiont",
+      "plural": "Lumen Evosymbionts"
+    },
+    "es": {
+      "zone": "Tallo Luminoso",
+      "job": "Evosimbionte Luminoso",
+      "plural": "Evosimbiontes Luminosos"
+    }
+  },
+  {
+    "zone": "zone_pd_biolumen_farm",
+    "job": "pd_biolumen_photofarm_tender_drone",
+    "en": {
+      "zone": "Photobloom",
+      "job": "Photosymbiont",
+      "plural": "Photosymbionts"
+    },
+    "es": {
+      "zone": "Floración Fotónica",
+      "job": "Fotosimbionte",
+      "plural": "Fotosimbiontes"
+    }
+  },
+  {
+    "zone": "zone_pd_salt_lab",
+    "job": "pd_salt_halophile_engineer_drone",
+    "en": {
+      "zone": "Halostem",
+      "job": "Halophile Evosymbiont",
+      "plural": "Halophile Evosymbionts"
+    },
+    "es": {
+      "zone": "Tallo Salino",
+      "job": "Evosimbionte Halófilo",
+      "plural": "Evosimbiontes Halófilos"
+    }
+  },
+  {
+    "zone": "zone_pd_salt_foundry",
+    "job": "pd_salt_brine_smelter_drone",
+    "en": {
+      "zone": "Brinegut",
+      "job": "Brine Forgesymbiont",
+      "plural": "Brine Forgesymbionts"
+    },
+    "es": {
+      "zone": "Tracto de Salmuera",
+      "job": "Forjasimbionte de Salmuera",
+      "plural": "Forjasimbiontes de Salmuera"
+    }
+  },
+  {
+    "zone": "zone_pd_salt_mine",
+    "job": "pd_salt_harvester_drone",
+    "en": {
+      "zone": "Saltroot",
+      "job": "Saltsymbiont",
+      "plural": "Saltsymbionts"
+    },
+    "es": {
+      "zone": "Raíz de Sal",
+      "job": "Simbionte de Sal",
+      "plural": "Simbiontes de Sal"
+    }
+  },
+  {
+    "zone": "zone_pd_aquifer_farm",
+    "job": "pd_aquifer_cultivator_drone",
+    "en": {
+      "zone": "Aquifer Bloom",
+      "job": "Aquifer Symbiont",
+      "plural": "Aquifer Symbionts"
+    },
+    "es": {
+      "zone": "Floración del Acuífero",
+      "job": "Simbionte del Acuífero",
+      "plural": "Simbiontes del Acuífero"
+    }
+  },
+  {
+    "zone": "zone_pd_aquifer_lab",
+    "job": "pd_aquifer_hydrology_scholar_drone",
+    "en": {
+      "zone": "Hydrocore",
+      "job": "Hydro Evosymbiont",
+      "plural": "Hydro Evosymbionts"
+    },
+    "es": {
+      "zone": "Núcleo Hídrico",
+      "job": "Evosimbionte Hídrico",
+      "plural": "Evosimbiontes Hídricos"
+    }
+  },
+  {
+    "zone": "zone_pd_primal_foundry",
+    "job": "pd_primal_forgesmith_drone",
+    "en": {
+      "zone": "Boneforge",
+      "job": "Bone Forgesymbiont",
+      "plural": "Bone Forgesymbionts"
+    },
+    "es": {
+      "zone": "Forja de Hueso",
+      "job": "Forjasimbionte de Hueso",
+      "plural": "Forjasimbiontes de Hueso"
+    }
+  },
+  {
+    "zone": "zone_pd_primal_grid",
+    "job": "pd_primal_tar_tapper_drone",
+    "en": {
+      "zone": "Tarroot",
+      "job": "Tarsymbiont",
+      "plural": "Tarsymbionts"
+    },
+    "es": {
+      "zone": "Raíz de Alquitrán",
+      "job": "Simbionte de Alquitrán",
+      "plural": "Simbiontes de Alquitrán"
+    }
+  },
+  {
+    "zone": "zone_pd_primal_mine",
+    "job": "pd_primal_bonebed_quarrier_drone",
+    "en": {
+      "zone": "Bonebed",
+      "job": "Bonebedsymbiont",
+      "plural": "Bonebedsymbionts"
+    },
+    "es": {
+      "zone": "Lecho de Huesos",
+      "job": "Simbionte del Lecho Óseo",
+      "plural": "Simbiontes del Lecho Óseo"
+    }
+  },
+  {
+    "zone": "zone_pd_coral_lab",
+    "job": "pd_coral_ecologist_drone",
+    "en": {
+      "zone": "Coralstem",
+      "job": "Coral Evosymbiont",
+      "plural": "Coral Evosymbionts"
+    },
+    "es": {
+      "zone": "Tallo de Coral",
+      "job": "Evosimbionte de Coral",
+      "plural": "Evosimbiontes de Coral"
+    }
+  },
+  {
+    "zone": "zone_pd_supercontinent_farm",
+    "job": "pd_supercontinent_plains_cultivator_drone",
+    "en": {
+      "zone": "Plainbloom",
+      "job": "Plainsymbiont",
+      "plural": "Plainsymbionts"
+    },
+    "es": {
+      "zone": "Floración de la Llanura",
+      "job": "Simbionte de la Llanura",
+      "plural": "Simbiontes de la Llanura"
+    }
+  },
+  {
+    "zone": "zone_pd_supercontinent_lab",
+    "job": "pd_supercontinent_tectonics_scholar_drone",
+    "en": {
+      "zone": "Tectocore",
+      "job": "Tectonics Evosymbiont",
+      "plural": "Tectonics Evosymbionts"
+    },
+    "es": {
+      "zone": "Núcleo Tectónico",
+      "job": "Evosimbionte Tectónico",
+      "plural": "Evosimbiontes Tectónicos"
+    }
+  },
+  {
+    "zone": "zone_pd_supercontinent_grid",
+    "job": "pd_supercontinent_rift_tapper_drone",
+    "en": {
+      "zone": "Riftheart",
+      "job": "Riftsymbiont",
+      "plural": "Riftsymbionts"
+    },
+    "es": {
+      "zone": "Corazón del Rift",
+      "job": "Simbionte del Rift",
+      "plural": "Simbiontes del Rift"
+    }
+  },
+  {
+    "zone": "zone_pd_sinkhole_lab",
+    "job": "pd_sinkhole_cavern_ecologist_drone",
+    "en": {
+      "zone": "Cavernmind",
+      "job": "Cavern Evosymbiont",
+      "plural": "Cavern Evosymbionts"
+    },
+    "es": {
+      "zone": "Mente de la Caverna",
+      "job": "Evosimbionte de la Caverna",
+      "plural": "Evosimbiontes de la Caverna"
+    }
+  },
+  {
+    "zone": "zone_pd_sinkhole_mine",
+    "job": "pd_sinkhole_quarrier_drone",
+    "en": {
+      "zone": "Depthspine",
+      "job": "Deepsymbiont",
+      "plural": "Deepsymbionts"
+    },
+    "es": {
+      "zone": "Espina de las Profundidades",
+      "job": "Simbionte de las Profundidades",
+      "plural": "Simbiontes de las Profundidades"
+    }
+  },
+  {
+    "zone": "zone_pd_storm_lab",
+    "job": "pd_storm_physicist_drone",
+    "en": {
+      "zone": "Stormmind",
+      "job": "Storm Evosymbiont",
+      "plural": "Storm Evosymbionts"
+    },
+    "es": {
+      "zone": "Mente de la Tormenta",
+      "job": "Evosimbionte de la Tormenta",
+      "plural": "Evosimbiontes de la Tormenta"
+    }
+  },
+  {
+    "zone": "zone_pd_storm_grid",
+    "job": "pd_storm_lightning_harvester_drone",
+    "en": {
+      "zone": "Thunderbloom",
+      "job": "Thundersymbiont",
+      "plural": "Thundersymbionts"
+    },
+    "es": {
+      "zone": "Floración de Trueno",
+      "job": "Simbionte del Trueno",
+      "plural": "Simbiontes del Trueno"
+    }
+  },
+  {
+    "zone": "zone_pd_storm_mine",
+    "job": "pd_storm_stormbed_quarrier_drone",
+    "en": {
+      "zone": "Stormspine",
+      "job": "Stormbedsymbiont",
+      "plural": "Stormbedsymbionts"
+    },
+    "es": {
+      "zone": "Espina de la Tormenta",
+      "job": "Simbionte del Lecho de Tormenta",
+      "plural": "Simbiontes del Lecho de Tormenta"
+    }
+  },
+  {
+    "zone": "zone_pd_iceberg_lab",
+    "job": "pd_iceberg_glaciologist_drone",
+    "en": {
+      "zone": "Cryostem",
+      "job": "Cryo Evosymbiont",
+      "plural": "Cryo Evosymbionts"
+    },
+    "es": {
+      "zone": "Tallo Criogénico",
+      "job": "Evosimbionte Criogénico",
+      "plural": "Evosimbiontes Criogénicos"
+    }
+  },
+  {
+    "zone": "zone_pd_iceberg_farm",
+    "job": "pd_iceberg_ice_trawler_drone",
+    "en": {
+      "zone": "Iceweave",
+      "job": "Icesymbiont",
+      "plural": "Icesymbionts"
+    },
+    "es": {
+      "zone": "Tejido de Hielo",
+      "job": "Simbionte de Hielo",
+      "plural": "Simbiontes de Hielo"
+    }
+  },
+  {
+    "zone": "zone_pd_iceberg_foundry",
+    "job": "pd_iceberg_glacial_smelter_drone",
+    "en": {
+      "zone": "Frostgut",
+      "job": "Frost Forgesymbiont",
+      "plural": "Frost Forgesymbionts"
+    },
+    "es": {
+      "zone": "Tracto de Escarcha",
+      "job": "Forjasimbionte de Escarcha",
+      "plural": "Forjasimbiontes de Escarcha"
+    }
+  },
+  {
+    "zone": "zone_pd_cryoflora_lab",
+    "job": "pd_cryoflora_cryobotanist_drone",
+    "en": {
+      "zone": "Frostbloom",
+      "job": "Cryobotanic Evosymbiont",
+      "plural": "Cryobotanic Evosymbionts"
+    },
+    "es": {
+      "zone": "Floración de Escarcha",
+      "job": "Evosimbionte Criobotánico",
+      "plural": "Evosimbiontes Criobotánicos"
+    }
+  },
+  {
+    "zone": "zone_pd_lichen_farm",
+    "job": "pd_lichen_cultivator_drone",
+    "en": {
+      "zone": "Lichenbloom",
+      "job": "Lichensymbiont",
+      "plural": "Lichensymbionts"
+    },
+    "es": {
+      "zone": "Floración de Liquen",
+      "job": "Simbionte de Liquen",
+      "plural": "Simbiontes de Liquen"
+    }
+  },
+  {
+    "zone": "zone_pd_lichen_grid",
+    "job": "pd_lichen_spore_tapper_drone",
+    "en": {
+      "zone": "Sporesurge",
+      "job": "Sporesymbiont",
+      "plural": "Sporesymbionts"
+    },
+    "es": {
+      "zone": "Oleada de Esporas",
+      "job": "Simbionte de Esporas",
+      "plural": "Simbiontes de Esporas"
+    }
+  },
+  {
+    "zone": "zone_pd_lichen_lab",
+    "job": "pd_lichen_symbiosis_scholar_drone",
+    "en": {
+      "zone": "Symbiocore",
+      "job": "Symbiologist",
+      "plural": "Symbiologists"
+    },
+    "es": {
+      "zone": "Núcleo Simbiótico",
+      "job": "Simbiontólogo",
+      "plural": "Simbiontólogos"
+    }
+  },
+  {
+    "zone": "zone_pd_glaciovolcanic_foundry",
+    "job": "pd_glaciovolcanic_obsidian_smelter_drone",
+    "en": {
+      "zone": "Obsidian Gut",
+      "job": "Obsidian Forgesymbiont",
+      "plural": "Obsidian Forgesymbionts"
+    },
+    "es": {
+      "zone": "Tracto de Obsidiana",
+      "job": "Forjasimbionte de Obsidiana",
+      "plural": "Forjasimbiontes de Obsidiana"
+    }
+  },
+  {
+    "zone": "zone_pd_glaciovolcanic_mine",
+    "job": "pd_glaciovolcanic_tephra_quarrier_drone",
+    "en": {
+      "zone": "Tephraspine",
+      "job": "Tephrasymbiont",
+      "plural": "Tephrasymbionts"
+    },
+    "es": {
+      "zone": "Espina de Tefra",
+      "job": "Simbionte de Tefra",
+      "plural": "Simbiontes de Tefra"
+    }
+  },
+  {
+    "zone": "zone_pd_lanthanide_mine",
+    "job": "pd_lanthanide_miner_drone",
+    "en": {
+      "zone": "Rareearthspine",
+      "job": "Lanthanidesymbiont",
+      "plural": "Lanthanidesymbionts"
+    },
+    "es": {
+      "zone": "Espina de Tierras Raras",
+      "job": "Simbionte de Lantánidos",
+      "plural": "Simbiontes de Lantánidos"
+    }
+  },
+  {
+    "zone": "zone_pd_lanthanide_lab",
+    "job": "pd_lanthanide_rare_earth_physicist_drone",
+    "en": {
+      "zone": "Rareearthcore",
+      "job": "Rare-Earth Evosymbiont",
+      "plural": "Rare-Earth Evosymbionts"
+    },
+    "es": {
+      "zone": "Núcleo de Tierras Raras",
+      "job": "Evosimbionte de Tierras Raras",
+      "plural": "Evosimbiontes de Tierras Raras"
+    }
+  },
+  {
+    "zone": "zone_pd_tidally_grid",
+    "job": "pd_tidally_dayside_collector_drone",
+    "en": {
+      "zone": "Sunheart",
+      "job": "Dayside Symbiont",
+      "plural": "Dayside Symbionts"
+    },
+    "es": {
+      "zone": "Corazón Solar",
+      "job": "Simbionte del Lado Diurno",
+      "plural": "Simbiontes del Lado Diurno"
+    }
+  },
+  {
+    "zone": "zone_pd_tidally_farm",
+    "job": "pd_tidally_duskbelt_gardener_drone",
+    "en": {
+      "zone": "Duskbloom",
+      "job": "Duskbelt Symbiont",
+      "plural": "Duskbelt Symbionts"
+    },
+    "es": {
+      "zone": "Floración del Crepúsculo",
+      "job": "Simbionte del Cinturón del Crepúsculo",
+      "plural": "Simbiontes del Cinturón del Crepúsculo"
+    }
+  },
+  {
+    "zone": "zone_pd_tidally_lab",
+    "job": "pd_tidally_duskbelt_astrobiologist_drone",
+    "en": {
+      "zone": "Twilightstem",
+      "job": "Twilight Evosymbiont",
+      "plural": "Twilight Evosymbionts"
+    },
+    "es": {
+      "zone": "Tallo del Ocaso",
+      "job": "Evosimbionte del Ocaso",
+      "plural": "Evosimbiontes del Ocaso"
+    }
+  },
+  {
+    "zone": "zone_pd_cave_grid",
+    "job": "pd_cave_deepvent_technician_drone",
+    "en": {
+      "zone": "Deepvent",
+      "job": "Deepvent Symbiont",
+      "plural": "Deepvent Symbionts"
+    },
+    "es": {
+      "zone": "Fumarola Profunda",
+      "job": "Simbionte de Fumarola Profunda",
+      "plural": "Simbiontes de Fumarola Profunda"
+    }
+  },
+  {
+    "zone": "zone_pd_cave_mine",
+    "job": "pd_cave_karst_delver_drone",
+    "en": {
+      "zone": "Karstspine",
+      "job": "Karst Symbiont",
+      "plural": "Karst Symbionts"
+    },
+    "es": {
+      "zone": "Espina Kárstica",
+      "job": "Simbionte Kárstico",
+      "plural": "Simbiontes Kársticos"
+    }
+  },
+  {
+    "zone": "zone_pd_cave_lab",
+    "job": "pd_cave_speleo_engineer_drone",
+    "en": {
+      "zone": "Speleocore",
+      "job": "Speleo Evosymbiont",
+      "plural": "Speleo Evosymbionts"
+    },
+    "es": {
+      "zone": "Núcleo Espeleológico",
+      "job": "Evosimbionte Espeleológico",
+      "plural": "Evosimbiontes Espeleológicos"
+    }
+  },
+  {
+    "zone": "zone_pd_superhab_lab",
+    "job": "pd_superhab_biosphere_ecologist_drone",
+    "en": {
+      "zone": "Lifecore",
+      "job": "Biosphere Evosymbiont",
+      "plural": "Biosphere Evosymbionts"
+    },
+    "es": {
+      "zone": "Núcleo Vital",
+      "job": "Evosimbionte de la Biosfera",
+      "plural": "Evosimbiontes de la Biosfera"
+    }
+  },
+  {
+    "zone": "zone_pd_superhab_farm",
+    "job": "pd_superhab_abundance_cultivator_drone",
+    "en": {
+      "zone": "Abundance Bloom",
+      "job": "Abundance Symbiont",
+      "plural": "Abundance Symbionts"
+    },
+    "es": {
+      "zone": "Floración de la Abundancia",
+      "job": "Simbionte de la Abundancia",
+      "plural": "Simbiontes de la Abundancia"
+    }
+  },
+  {
+    "zone": "zone_pd_superhab_foundry",
+    "job": "pd_superhab_gravitic_forgewright_drone",
+    "en": {
+      "zone": "Gravity Gut",
+      "job": "Gravitic Forgesymbiont",
+      "plural": "Gravitic Forgesymbionts"
+    },
+    "es": {
+      "zone": "Tracto Gravitatorio",
+      "job": "Forjasimbionte Gravitatorio",
+      "plural": "Forjasimbiontes Gravitatorios"
+    }
+  }
+]

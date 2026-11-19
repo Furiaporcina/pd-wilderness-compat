@@ -1,0 +1,14 @@
+# Files that are not part of the published repository
+# PD source snapshot (third-party mod, 6+ GB) - required only to regenerate/validate
+PlanetaryDiveristy-main/
+
+# Generator scratch output
+tools/_pre_split_snapshot/
+tools/__pycache__/
+*.pyc
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+*.log

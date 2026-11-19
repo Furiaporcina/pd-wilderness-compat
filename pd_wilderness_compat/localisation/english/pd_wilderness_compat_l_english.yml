@@ -1,0 +1,5 @@
+﻿l_english:
+ # Planetary Diversity: Wilderness Compatibility
+ pd_wc_core_tap_requirements: "£trigger_no£ §RMust have §Y3§! or more £district£ §Y$district_photosynthesis_fields_plural$§! and no other £district£ §YRural Districts§! built on the planet."
+ pd_wc_agriworld_requirements: "£trigger_no£ §RMust have §Y3§! or more £district£ §Y$district_orchard_forests_plural$§! and no other £district£ §YRural Districts§! built on the planet."
+ pd_wc_stripmine_requirements: "£trigger_no£ §RMust have §Y3§! or more £district£ §Y$district_hollow_mountains_plural$§! and no other £district£ §YRural Districts§! built on the planet."
