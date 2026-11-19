@@ -17,11 +17,11 @@ solo lo necesario.
 ## Instalación
 
 1. Suscríbete a los mods de Planetary Diversity en Steam Workshop.
-2. Coloca la carpeta `pd_wilderness_compat/` y el archivo `pd_wilderness_compat.mod`
-   dentro de:
+2. Descarga el repositorio (**Code → Download ZIP**) o clónalo en cualquier carpeta, y
+   copia `pd_wilderness_compat/` y `pd_wilderness_compat.mod` dentro de:
    `C:\Users\<usuario>\Documents\Paradox Interactive\Stellaris\mod\`
-   (puedes clonar el repositorio directamente ahí; el `.mod` usa la ruta relativa
-   `mod/pd_wilderness_compat`).
+   El `.mod` usa la ruta relativa `mod/pd_wilderness_compat`, así que ambos deben quedar
+   directamente en `mod/`, no dentro de una subcarpeta del repositorio.
 3. Activa **Planetary Diversity: Wilderness Compatibility** en el launcher, después de PD.
 4. En multiplayer, todos los jugadores necesitan exactamente los mismos archivos.
 
