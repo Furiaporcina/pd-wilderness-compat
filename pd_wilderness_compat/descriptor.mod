@@ -4,6 +4,6 @@ tags={
 	"Fixes"
 }
 name="Planetary Diversity: Wilderness Compatibility"
-supported_version="v4.5.*"
 picture="Papuportada1.png"
+supported_version="v4.5.*"
 remote_file_id="3842496066"
