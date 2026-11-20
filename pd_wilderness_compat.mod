@@ -5,5 +5,5 @@ tags={
 }
 name="Planetary Diversity: Wilderness Compatibility"
 supported_version="v4.5.*"
-picture="Papuportada1.png"
+picture="thumbnail.png"
 path="mod/pd_wilderness_compat"
